@@ -5,6 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   basePath: isProd ? '/the-cave-golf-lounge' : '',
+  assetPrefix: isProd ? '/the-cave-golf-lounge/' : '',
   images: {
     unoptimized: true,
   },
